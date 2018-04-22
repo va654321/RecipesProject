@@ -11,6 +11,7 @@ namespace WindowsFormsApplication1
     class Database
     {
         public SQLiteConnection myConnection;
+        //
         public Database()
         {
             myConnection = new SQLiteConnection("Data Source=University.sqlite3"); 
